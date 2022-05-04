@@ -683,8 +683,8 @@ text-align: center;
 
   }
  .gradientes:hover .foto--transform{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
  }
  .subtitulos{
     color: #c93384;
@@ -721,6 +721,7 @@ text-align: center;
         left: -100%;
         z-index: 100;
         transition: left 2s;
+        color: black;
     }
     #lateral:target{
         left: 0;
@@ -746,7 +747,7 @@ text-align: center;
         margin: 2rem;
     }
     .fondoturnos{
-        min-height: 250px;
+        min-height: 400px;
     }
     .servi{
         font-size: 30px;
