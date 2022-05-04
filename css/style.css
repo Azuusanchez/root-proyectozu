@@ -647,6 +647,7 @@ text-align: center;
     }
     .menu__icono{
         display: flex;
+        color: black;
        
     }
    
