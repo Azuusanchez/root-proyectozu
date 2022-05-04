@@ -249,6 +249,7 @@ height: 250px;
 .foto--animacion{ animation-name: coder;
     animation-duration: 4s;
     animation-iteration-count: 3;
+    margin-left: 30px;
 
 }
 @keyframes coder{
@@ -468,7 +469,8 @@ text-align: center;
         height: 200px;
         border: 3px solid ;
         border-radius: 15px;
-        margin: 0;
+        margin: 18px;
+
     }
     .grid{
         border: 2px solid #555;
@@ -653,11 +655,14 @@ text-align: center;
     background-color: white;
  }
   .foto{
-    width:100px;
-    height: 100px;
+    width:120px;
+    height: 120px;
     border: 2px solid ;
     border-radius: 10px;
-    margin: 0;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
   }
  .gradientes:hover .foto--transform{
     width: 180px;
@@ -834,5 +839,10 @@ text-align: center;
     .button__turno{
         width: 60%;
     }  
+    .flex{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
 }
 
