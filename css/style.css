@@ -186,7 +186,25 @@ font-size: 30px;
     width: 100%;
     background-image: linear-gradient(to bottom, #CCABDB, #86E3CE);
 }
+.foto--anime{
+    animation-name: azu;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes azu{
+    0%{ 
+        opacity: 2;
+    }
+    50%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity:2;
+    }
+    
+}
 .imagenes {
     width: 100%;
     height: 400px;
