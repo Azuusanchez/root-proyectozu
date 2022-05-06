@@ -22,6 +22,7 @@ body {
     z-index: 10;
 }
    .navegador{
+       width: 100%;
     list-style: none;
     display: flex;
     margin: 1rem;
@@ -30,7 +31,7 @@ body {
     justify-content: space-between;
    }
     
-.nav {
+   .nav {
     padding:1rem 1rem 2rem;
     
 }
@@ -286,12 +287,13 @@ height: 250px;
 
 .fondo { background-color: white;
     margin: 2rem 0 0;
-         
+     width: 100%;    
 }
 .fondofooter{
     background-color: #f5abb0;
     text-align: center;
     list-style: none;
+    width: 100%;
     
 
 }
@@ -698,6 +700,7 @@ text-align: center;
     width: 80px;
     height: 80px;
     
+    
   }
  .fondo{
     background: white;
@@ -707,6 +710,7 @@ text-align: center;
   }
  .fondofooter{
     font-size: 14px;
+    width: 100%;
    }
     .subtitulos{
         margin: 1rem 3rem 8px 3rem;
