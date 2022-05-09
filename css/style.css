@@ -25,22 +25,39 @@ body {
        width: 100%;
     list-style: none;
     display: flex;
-    margin: 1rem;
+    margin: 10px;
     gap: 32px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 0;
+    padding-right: 0;
    }
-    
    .nav {
-    padding:1rem 1rem 2rem;
+    padding-top: 1rem;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
     
 }
+    
+
 .navegador__la{
      color:black;
      text-decoration: none;
     }
+    .carrusel{
+        width: 100%;
+        height: 400px;
+    }
+    .carrusel__img{
+        background-color: black;
+      width: 100%;
+      height: 400px;
+        object-fit: contain;
 
-.seccion{
+    }
+
+ /* CLASE GRID.seccion{
     width: 100%;
     padding: 1rem ;
 }
@@ -91,7 +108,7 @@ body {
     .grid__hijo--6{
         grid-area: ele6;
 
-    }
+    } */
     
 
 .titulo2{ 
@@ -100,7 +117,8 @@ body {
     color: whitesmoke ;
     font-size: 50px;
     text-align: center;
-    margin: 1rem;      
+    margin: 1rem; 
+    width: 100%;     
 }
 .focus-in-expand {
 	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -385,27 +403,19 @@ text-align: center;
 
 
 }
-.article{ height: auto;
-    margin: 1rem;
-    color: white;
-    font-weight: 800;
-    width: 40%;
-    font-size: 1rem;
-     border-radius: 2rem;
-    padding: 2rem;
-    background-color:#f5abb0;
 
-}
 .imagenpromo{
-    width: 350px;
+    width: 400px;
     height: 300px;
-    border-radius: 2rem;
-    text-align: center;
+    border-radius: 1rem;
+    margin: 1rem;
+    
 }
-.subpromo{ 
+.subpromo{
     text-align: center;
-    font-size: 35px ;
-    color:black;}
+    font-size: 35px;
+    color: black;
+}
     .promo{
         font-size: 25px;
         text-align: center;
@@ -459,6 +469,30 @@ text-align: center;
 .menu__icono{
     display: none;
 }
+
+.promocionesfondo{
+   width: 90%;
+   margin-left: 5%;
+   margin-right: 5%;
+    background-color: #f5abb0;
+    height: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.parraf {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.promocionesfondo2{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+     background-color: #d1b0b2;
+     height: auto;
+     border-radius: 1rem;
+     padding: 1rem;
+ }
 
 @media screen and (max-width: 1023px) {
     .menu{
@@ -584,16 +618,16 @@ text-align: center;
                 
                 }
                 .imagenpromo{
-                    width: 250px;
-                    height: 200px;
+                    width: 300px;
+                    height: 250px;
                     border-radius: 2rem;
                    padding: 5px;
                     
                 }
-                .subpromo{ 
-                    text-align: center;
-                    font-size: 24px ;
-                    color:black}
+                .subpromo{
+                    font-size: 30px;
+                }
+               
         .promo{
             font-size: 25px;
         }
@@ -629,6 +663,17 @@ text-align: center;
     .gradientes:hover .foto--transform{
         width: 250px;
         height: 250px;}
+        .carrusel{
+            width: 100%;
+            height: 300px;
+        }
+        .carrusel__img{
+            background-color: black;
+          width: 100%;
+          height: 300px;
+            object-fit: contain;
+    
+        }
 }
 
 
@@ -816,20 +861,28 @@ text-align: center;
             background-color:#f5abb0;
         
         }
+        .promocionesfondo{
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+
+        }
         .imagenpromo{
-            width: 200px;
-            padding: 10px;
-            height: 150px;
+            width: 250px;
+            height: 2500x;
+            padding: 5px;
+            margin: 5px;
+           
             border-radius: 1rem;
-            align-items: center;
-            object-fit: cover;
+            
         }
         .subpromo{ 
             text-align: center;
-            font-size: 15px ;
+            font-size: 20px ;
             color:black;}
             .parraf{
-                font-size: 8px;
+                text-align: center;
+                font-size: 15px;
             }
              .promo{
                 font-size: 18px;
@@ -867,6 +920,17 @@ text-align: center;
         flex-direction: row;
         justify-content: center;
         width: 100%;
+    }
+    .carrusel{
+        width: 100%;
+        height: 200px;
+    }
+    .carrusel__img{
+        background-color: black;
+      width: 100%;
+      height: 200px;
+        object-fit: contain;
+
     }
 }
 
