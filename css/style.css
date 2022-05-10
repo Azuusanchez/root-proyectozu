@@ -270,12 +270,22 @@ height: 250px;
     text-align: center;
     list-style: none;
     width: 100%;
-    
-
 }
-.titulofooter{ 
+.logofooter{
+    margin: 2rem;
+    
+    
+}
+.jam--footer{
+    margin: 10px;
     color: black;
-    font-size: 16px;
+    text-decoration: none;
+}
+
+.titulofooter{ 
+    color: white;
+    font-size: 18px;
+    margin: 1rem;
 
 
 }
@@ -284,44 +294,47 @@ height: 250px;
 .contacto{
     color: #f5abb0;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    font-size: 24px;
 }
 .fondocontacto{
     border: 2px solid pink;
     text-align: center;
-    width: 450px;
-    margin: auto;
+    width: 400px;
     background: rgba(0, 0,0.4,0);
-    padding: 10px 20px;
+    padding: 10px 15px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 15px;
     border-radius: 7px;
-    padding-bottom: 70px;
-    
-
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
     .type{background-color: pink;
         color: gray;
-        width: 100%;
-        margin-bottom: 20px;
+        width: 90%;
+        margin-bottom: 10px;
         box-sizing: border-box;
         border-radius: 8px;
         padding: 7px;
-        font-size: 17px;
+        font-size: 15px;
         border: none;
     }
 
-.mensaje { font-size: 18px;
+.mensaje { font-size: 15px;
     color:rgb(185, 144, 144);
     
+}
+.mapa{
+    width: 500px;
+    margin-top: 1rem;
 }
 .botone{
     background-color: pink ;
     color: aliceblue;
     font-weight: bold;
     width: 120px;
-    padding: 10px;
-    border: 2px solid gray;
+    padding: 8px;
+    border: 2px solid white;
     border-radius: 5px;
     text-align: center;
 }
@@ -514,33 +527,39 @@ text-align: center;
                 border-radius:14px;
                 margin: 1rem;
                }
-            
-    .contacto{
-        font-size: 18px;
-    }
-    .fondocontacto{
-        border: 2px solid pink;
-        text-align: center;
-        width: 300px;
-        margin: auto;
-        background: rgba(0, 0,0.4,0);
-        padding: 8px 15px;
-        box-sizing: border-box;
-        margin-top: 18px;
-        border-radius: 7px;
-        padding-bottom: 60px;}
-        .mensaje { font-size: 15px;}
-        .type{background-color: pink;
-            color: gray;
-            width: 80%;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-            border-radius: 8px;
-            padding: 6px 1rem 6px;
-            font-size: 15px;
-            border: none;}
+            .contacto{
+                padding-bottom: 12px;
+                font-size: 18px;
+            }
+
+            .fondocontacto{
+                width: 350px;
+                padding: 8px 12px;
+                margin-top: 12px;
+                padding-bottom: 15px;
+            }
+            .type{
+                width: 80%;
+                font-size: 14px;
+
+            }
+            .mensaje{
+                font-size: 14px;
+            }
+            .mapa{
+                width: 350px;
+                height: 400px;
+                margin-left: 1rem;
+
+            }
+            .botone{
+                width: 100px;
+                padding: 5px;
+            }
+
+
             .button__turno{
-                width:45% ;
+                width:40% ;
                 padding: 12px;
             }
             .section{
@@ -753,28 +772,39 @@ text-align: center;
 
    }
    .contacto{
-    font-size: 14px;}
+    font-size: 16px;}
  .fondocontacto{
-    border: 2px solid pink;
-    text-align: center;
-    width: 250px;
-    margin: auto;
+    width: 280px;
     background: rgba(0, 0,0.4,0);
-    padding: 5px 10px;
+    padding: 4px 8px;
     box-sizing: border-box;
-    margin-top: 8px;
-    border-radius: 7px;
-    padding-bottom: 40px;}
-    .mensaje { font-size: 12px;}
+    margin-top: 6px;
+    margin-left: 3rem;
+    border-radius: 5px;
+    padding-bottom: 15px;
+     margin-bottom: 6px;}
+    .mensaje { font-size: 15px;}
     .type{background-color: pink;
         color: gray;
-        width: 85%;
+        width: 80%;
         margin-bottom: 12px;
         box-sizing: border-box;
         border-radius: 8px;
-        padding: 6px 1rem 6px;
-        font-size: 12px;
+        padding: 5px 1rem 5px;
+        font-size: 10px;
         border: none;}
+        .botone{
+            width: 90px;
+
+        }
+        .mapa{
+            width: 300px;
+            height: 200px;
+            margin-left: 3rem;
+            margin-bottom: 10px;
+        }
+
+
         .button__turno{
             width:20% ;
             padding: 5px;
@@ -853,6 +883,21 @@ text-align: center;
       height: 200px;
         object-fit: contain;
 
+    }
+    .logofooter{
+        width: 80px;
+        height: 80px;
+    }
+    .titulofooter{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .jam--footer{
+        margin: 5px;
+    }
+    .mapafooter{
+        width: 80px;
+        height: 70px;
     }
 }
 
