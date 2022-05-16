@@ -1,0 +1,68 @@
+.contacto__titulo {
+    font-family:'Times New Roman', Times, serif;
+   background-color: black;
+    color: white ;
+    font-size: 50px;
+    text-align: center;
+    padding: 1rem;
+    width: 30%;
+    height: auto;  
+    margin-top: 300px;
+}  
+.contacto{
+    color: #f5abb0;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+.fondocontacto{
+    border: 2px solid pink;
+    text-align: center;
+    width: 400px;
+    background: rgba(0, 0,0.4,0);
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 7px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+    .type{background-color: pink;
+        color: gray;
+        width: 90%;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 7px;
+        font-size: 15px;
+        border: none;
+    }
+
+.mensaje { font-size: 15px;
+    color:rgb(185, 144, 144);
+    
+}
+.mapa{
+    width: 500px;
+    margin-top: 1rem;
+}
+.botone{
+    background-color: pink ;
+    color: aliceblue;
+    font-weight: bold;
+    width: 120px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sectioncontacto{
+    background-image: url(../imagenes/imagenes\ \(3\).jpg) ;
+    background-size: contain;
+width: 100%;
+height: 450px;    
+padding: 3rem; 
+text-align: center;
+
+}

@@ -1,0 +1,38 @@
+.fondologo{ width: 100px;
+    height: 100px;
+
+}
+
+.menu { display: flex;
+    background-color: #f5abb0; 
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+   .navegador{
+       width: 100%;
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    gap: 32px;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 0;
+    padding-right: 0;
+   }
+   .nav {
+    padding-top: 1rem;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    
+}
+    
+
+.navegador__la{
+     color:black;
+     text-decoration: none;
+    }

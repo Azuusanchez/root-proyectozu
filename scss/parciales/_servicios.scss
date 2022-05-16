@@ -1,0 +1,67 @@
+.sectionservicios{
+    background-image: url(../imagenes/imagenes\ \(2\).jpg) ;
+    background-size: contain;
+width: 100%;
+height: 450px;    
+padding: 3rem; 
+text-align: center;
+}
+.servicio__parraf{
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    width: 60%;
+    height: auto;
+    margin: 1rem;
+
+}
+.servicio__titulo{ font-family:'Times New Roman', Times, serif;
+    background-color: black;
+     color: white ;
+     font-size: 50px;
+     text-align: center;
+     padding: 1rem;
+     width: 30%;
+     height: auto;  
+     margin-top: 100px;
+
+}
+.sectionservi{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.articleservi{
+margin: 1rem;
+color: white;
+font-weight: 500;
+width: 90%;
+font-size: 1rem;
+ border-radius: 2rem;
+padding: 1rem;
+background-color:pink;
+
+}
+.sub__servi{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.fotosuñas{
+    border: 4px solid gray;
+    width: 200px;
+    height: 200px;
+    border-radius:16px;
+    margin: 8px
+}
+
+.parrafos{ 
+    font-size: 14px;
+    color:black;
+    height: auto;
+    padding: 10px;
+
+
+}
