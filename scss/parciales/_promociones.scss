@@ -1,15 +1,7 @@
-.fondo__promo{
-    background-image: url( "../imagenes/alis\ \(2\).jpg") ;
-    background-size: contain;
-width: 100%;
-height: 450px;    
-padding: 3rem; 
-text-align: center;
 
-}
 .titulo2{ 
   font-family:'Times New Roman', Times, serif;
-background-color: white;
+background-color: $color-palabras;
 color: black ;
 font-size: 50px;
 text-align: center;
@@ -18,19 +10,29 @@ width: 40%;
 height: auto;  
 margin-bottom: 2rem;   
 }
-.fondo { background-color: white;
+.fondo { background-color: $color-palabras;
     margin: 2rem 0 0;
      width: 100%;    
+     &__promo{
+        background-image: url( "../imagenes/alis\ \(2\).jpg") ;
+        background-size: contain;
+    width: 100%;
+    height: 450px;    
+    padding: 3rem; 
+    text-align: center;
+    
+    }
+    &__parraf {
+        color: $color-palabras;
+        font-size: 30px;
+        background-color: black;
+        width: 60%;
+        height: auto;
+        margin: 1rem;
+        }
 }
 
-.fondo__parraf {
-color: white;
-font-size: 30px;
-background-color: black;
-width: 60%;
-height: auto;
-margin: 1rem;
-}
+
 .imagenpromo{
     width: 400px;
     height: 300px;
@@ -51,7 +53,7 @@ margin: 1rem;
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-         background-color: #f5abb0;
+         background-color: $color-principal;
          height: auto;
          border-radius: 1rem;
          padding: 1rem;
@@ -59,7 +61,7 @@ margin: 1rem;
          margin-top: 1rem;
      }
      .parraf {
-        color: white;
+        color: $color-palabras;
         font-size: 20px;
         text-align: justify;
     }

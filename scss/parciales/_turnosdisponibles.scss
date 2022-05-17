@@ -11,7 +11,7 @@ text-align: center;
 .turno__titulo{
     font-family:'Times New Roman', Times, serif;
     background-color: pink;
-     color: white ;
+     color: $color-palabras ;
      font-size: 50px;
      text-align: center;
      padding: 1rem;
@@ -36,7 +36,7 @@ text-align: center;
 
 }
 .button__turno{
-    background-color: #f5abb0;
+    background-color: $color-principal;
     color:aliceblue;
     font-weight: bold;
     width: 50%;

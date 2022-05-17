@@ -1,8 +1,8 @@
 .contacto__titulo {
     font-family:'Times New Roman', Times, serif;
-   background-color: black;
-    color: white ;
-    font-size: 50px;
+   background-color: $color-secundario;
+    color: $color-palabras ;
+    font-size: $font-size-principal;
     text-align: center;
     padding: 1rem;
     width: 30%;
@@ -10,7 +10,7 @@
     margin-top: 300px;
 }  
 .contacto{
-    color: #f5abb0;
+    color: $color-principal;
     text-align: center;
     padding-bottom: 15px;
     font-size: 24px;
@@ -52,7 +52,7 @@
     font-weight: bold;
     width: 120px;
     padding: 8px;
-    border: 2px solid white;
+    border: 2px solid $color-palabras;
     border-radius: 5px;
     text-align: center;
 }
