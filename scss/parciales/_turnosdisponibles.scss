@@ -10,7 +10,7 @@ text-align: center;
 }
 .turno__titulo{
     font-family:'Times New Roman', Times, serif;
-    background-color: pink;
+    background-color: $background-color-secundario;
      color: $color-palabras;
      font-size: $font-size-principal;
      text-align: center;
@@ -41,7 +41,7 @@ text-align: center;
     font-weight: bold;
     width: 50%;
     padding: 15px;
-    border: 2px solid grey;
+    border: 2px solid $color-palabras;
     border-radius: 5px;
     text-align: center;
 

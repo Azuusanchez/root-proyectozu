@@ -10,7 +10,7 @@ width: 40%;
 height: auto;  
 margin-bottom: 2rem;   
 }
-.fondo { background-color: $background-color-secundario;
+.fondo { background-color: $background-color-palabras;
     margin: 2rem 0 0;
      width: 100%;    
      &__promo{
@@ -61,7 +61,7 @@ margin-bottom: 2rem;
          margin-top: 1rem;
      }
      .parraf {
-        color:"$color-palabras";
+        color:$color-palabras;
         font-size: 20px;
         text-align: justify;
     }
