@@ -4,7 +4,7 @@
 }
 
 .menu { display: flex;
-    background-color: #f5abb0;
+    background-color: $background-color-principal;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
@@ -24,7 +24,7 @@
     padding-right: 0;
 
     &__la{
-        color: "$color-secundario";
+        color: $color-secundario;
         text-decoration: none;
        }
    }

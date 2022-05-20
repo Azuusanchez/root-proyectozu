@@ -192,7 +192,7 @@
     }
     .titulo2{ 
       font-family:'Times New Roman', Times, serif;
-    background-color: white;
+    background-color: $color-palabras;
     color: black ;
     font-size: 40px;
     text-align: center;
@@ -205,7 +205,7 @@
     .fondo__parraf {
     color: white;
     font-size: 20px;
-    background-color: black;
+    background-color: $color-secundario;
     width: 60%;
     height: auto;
     margin: 1rem;
@@ -226,7 +226,7 @@
             flex-direction: row;
             &__icono{
                 display: flex;
-                color: black;
+                color: $color-secundario;
                
             }
         }
@@ -259,7 +259,7 @@
         height: 145px;}
      
      .fondo{
-        background: white;
+        background: $color-palabras;
         width: 100%;
         margin:0;
 
@@ -285,7 +285,7 @@
             left: -100%;
             z-index: 100;
             transition: left 2s;
-            color: black;
+            color: $color-secundario;
         }
         #lateral:target{
             left: 0;
@@ -433,7 +433,7 @@
             .subpromo{ 
                 text-align: center;
                 font-size: 20px ;
-                color:black;}
+                color:$color-secundario;}
                 .parraf{
                     text-align: center;
                     font-size: 15px;
@@ -477,7 +477,7 @@
 
             &__titulo{
                 text-align: center; 
-                background-color: black;
+                background-color: $color-secundario;
                 color:#CCABDB;
                 width: 80%;
                 padding: 10px;
@@ -485,8 +485,8 @@
                 
             }
              &__pa{ 
-                 background-color: black;
-                color: white;
+                 background-color: $color-secundario;
+                color: $color-palabras;
                 width: 80%;
                 padding-top: 10px;
                 padding-bottom: 10px;
@@ -519,7 +519,7 @@
             }
             .titulo2{ 
             
-            color: black ;
+            color: $color-secundario ;
             font-size: 30px;
             text-align: center;
             padding: 10px;
@@ -529,9 +529,9 @@
             }
             
             .fondo__parraf {
-            color: white;
+            color: $color-palabras;
             font-size: 15px;
-            background-color: black;
+            background-color: $color-secundario;
             width: 80%;
             height: auto;
             margin: 1rem;

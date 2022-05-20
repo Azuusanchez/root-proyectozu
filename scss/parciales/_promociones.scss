@@ -1,16 +1,16 @@
 
 .titulo2{ 
   font-family:'Times New Roman', Times, serif;
-background-color: "$color-palabras";
-color: "$color-secundario" ;
-font-size: "$font-size-principal";
+background-color: $background-color-palabras;
+color: $color-secundario ;
+font-size: $font-size-principal;
 text-align: center;
 padding: 1rem;
 width: 40%;
 height: auto;  
 margin-bottom: 2rem;   
 }
-.fondo { background-color: "$color-palabras";
+.fondo { background-color: $background-color-secundario;
     margin: 2rem 0 0;
      width: 100%;    
      &__promo{
@@ -23,9 +23,9 @@ margin-bottom: 2rem;
     
     }
     &__parraf {
-        color: "$color-palabras";
+        color: $color-palabras;
         font-size: 30px;
-        background-color:" $color-secundario";
+        background-color:$background-color-secundario;
         width: 60%;
         height: auto;
         margin: 1rem;
@@ -43,7 +43,7 @@ margin-bottom: 2rem;
 .subpromo{
     text-align: center;
     font-size: 35px;
-    color: "$color-secundario";
+    color: $color-secundario;
 }
     .promo{
         font-size: 25px;
@@ -53,7 +53,7 @@ margin-bottom: 2rem;
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-         background-color: "$color-principal";
+         background-color: $background-color-principal;
          height: auto;
          border-radius: 1rem;
          padding: 1rem;

@@ -7,18 +7,18 @@ padding: 3rem;
 text-align: center;
 }
 .servicio__parraf{
-    color: white;
+    color: $color-palabras;
     font-size: 30px;
-    background-color: black;
+    background-color: $color-secundario;
     width: 60%;
     height: auto;
     margin: 1rem;
 
 }
 .servicio__titulo{ font-family:'Times New Roman', Times, serif;
-    background-color: black;
-     color: white ;
-     font-size: 50px;
+    background-color: $color-secundario;
+     color: $color-palabras ;
+     font-size: $font-size-principal;
      text-align: center;
      padding: 1rem;
      width: 30%;
@@ -35,7 +35,7 @@ text-align: center;
 }
 .articleservi{
 margin: 1rem;
-color: white;
+color: $color-palabras;
 font-weight: 500;
 width: 90%;
 font-size: 1rem;
@@ -47,7 +47,7 @@ background-color:pink;
 .sub__servi{
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: $color-palabras;
 }
 .fotosuñas{
     border: 4px solid gray;
@@ -59,7 +59,7 @@ background-color:pink;
 
 .parrafos{ 
     font-size: 14px;
-    color:black;
+    color:$color-secundario;
     height: auto;
     padding: 10px;
 

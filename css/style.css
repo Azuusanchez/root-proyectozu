@@ -68,7 +68,7 @@ body {
 }
 
 .navegador__la {
-  color: "$color-secundario";
+  color: black;
   text-decoration: none;
 }
 
@@ -189,8 +189,8 @@ body {
 .turno__titulo {
   font-family: 'Times New Roman', Times, serif;
   background-color: pink;
-  color: " $color-palabras";
-  font-size: "$font-size-principal";
+  color: white;
+  font-size: 50px;
   text-align: center;
   padding: 1rem;
   width: 30%;
@@ -208,12 +208,12 @@ body {
 .turno {
   margin: 2rem;
   font-size: 30px;
-  color: "$color-secundario";
+  color: black;
   text-align: center;
 }
 
 .button__turno {
-  background-color: "$color-principal";
+  background-color: #f5abb0;
   color: aliceblue;
   font-weight: bold;
   width: 50%;
@@ -295,9 +295,9 @@ body {
 
 .titulo2 {
   font-family: 'Times New Roman', Times, serif;
-  background-color: "$color-palabras";
-  color: "$color-secundario";
-  font-size: "$font-size-principal";
+  background-color: white;
+  color: black;
+  font-size: 50px;
   text-align: center;
   padding: 1rem;
   width: 40%;
@@ -306,7 +306,7 @@ body {
 }
 
 .fondo {
-  background-color: "$color-palabras";
+  background-color: black;
   margin: 2rem 0 0;
   width: 100%;
 }
@@ -321,9 +321,9 @@ body {
 }
 
 .fondo__parraf {
-  color: "$color-palabras";
+  color: white;
   font-size: 30px;
-  background-color: " $color-secundario";
+  background-color: black;
   width: 60%;
   height: auto;
   margin: 1rem;
@@ -339,7 +339,7 @@ body {
 .subpromo {
   text-align: center;
   font-size: 35px;
-  color: "$color-secundario";
+  color: black;
 }
 
 .promo {
@@ -351,7 +351,7 @@ body {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: "$color-principal";
+  background-color: #f5abb0;
   height: auto;
   border-radius: 1rem;
   padding: 1rem;
@@ -367,9 +367,9 @@ body {
 
 .contacto__titulo {
   font-family: 'Times New Roman', Times, serif;
-  background-color: "$color-secundario";
-  color: " $color-palabras ";
-  font-size: "$font-size-principal";
+  background-color: black;
+  color: white;
+  font-size: 50px;
   text-align: center;
   padding: 1rem;
   width: 30%;
@@ -378,7 +378,7 @@ body {
 }
 
 .contacto {
-  color: "$color-principal";
+  color: #f5abb0;
   text-align: center;
   padding-bottom: 15px;
   font-size: 24px;
@@ -425,7 +425,7 @@ body {
   font-weight: bold;
   width: 120px;
   padding: 8px;
-  border: 2px solid "$color-palabras";
+  border: 2px solid white;
   border-radius: 5px;
   text-align: center;
 }
@@ -440,7 +440,7 @@ body {
 }
 
 .fondofooter {
-  background-color: "$color-principal";
+  background-color: #f5abb0;
   text-align: center;
   list-style: none;
   width: 100%;
@@ -452,12 +452,12 @@ body {
 
 .jam--footer {
   margin: 10px;
-  color: " $color-palabras";
+  color: white;
   text-decoration: none;
 }
 
 .titulofooter {
-  color: "$color-secundario";
+  color: black;
   font-size: 18px;
   margin: 1rem;
 }
