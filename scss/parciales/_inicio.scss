@@ -70,6 +70,15 @@ margin: 1rem;
 text-align: center;
 
 }
+@mixin subtitulos ( $font-family, $color) { 
+  font-family: $font-family;
+  color: $color;
+}
+
+.subtitulos {
+  @include subtitulos ("fantasy", black);
+
+}
 .foto {  
      color:$color-palabras;
     border: 3px solid ;

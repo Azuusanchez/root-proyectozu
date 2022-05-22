@@ -4,7 +4,16 @@
     
 }
 .sub__servi{
-   @include fuente ( Cambria, 100px);
-   color:honeydew;
+   @include fuente ( "Cambria", 100px);
+
+
+}
+@mixin subtitulos ( $font-family, $color) { 
+    font-family: $font-family;
+    color: $color;
+}
+
+.subtitulos {
+    @include subtitulos ("fantasy", black);
 
 }
