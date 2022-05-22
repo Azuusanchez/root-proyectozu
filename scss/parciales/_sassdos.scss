@@ -1,0 +1,10 @@
+@mixin fuente ( $font-family, $font-weight ) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    
+}
+.sub__servi{
+   @include fuente ( Cambria, 100px);
+   color:honeydew;
+
+}

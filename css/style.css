@@ -40,9 +40,16 @@ body {
   justify-content: center;
 }
 
+.sub__servi {
+  font-family: Cambria;
+  font-weight: 100px;
+  color: honeydew;
+}
+
 .fondologo {
   width: 100px;
   height: 100px;
+  margin: 0;
 }
 
 .menu {
@@ -54,6 +61,7 @@ body {
   width: 100%;
   position: fixed;
   z-index: 10;
+  margin: 0;
 }
 
 .navegador {
@@ -669,6 +677,7 @@ body {
   }
   .menu {
     flex-direction: row;
+    margin: 0;
   }
   .menu__icono {
     display: flex;
@@ -703,8 +712,9 @@ body {
     margin: 0;
   }
   .fondologo {
-    width: 80px;
+    width: 70px;
     height: 80px;
+    margin: 0;
   }
   .fondofooter {
     font-size: 14px;
