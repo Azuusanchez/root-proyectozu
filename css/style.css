@@ -40,6 +40,7 @@ body {
   justify-content: center;
 }
 
+/* Agregando mixin en inicio y en servicios */
 .sub__servi {
   font-family: "Cambria";
   font-weight: 100px;
@@ -48,6 +49,9 @@ body {
 .subtitulos {
   font-family: "fantasy";
   color: black;
+  width: 250px;
+  height: auto;
+  border: 2px solid gainsboro;
 }
 
 .fondologo {
@@ -168,6 +172,9 @@ body {
 .subtitulos {
   font-family: "fantasy";
   color: black;
+  width: 250px;
+  height: auto;
+  border: 2px solid gainsboro;
 }
 
 .foto {
@@ -646,7 +653,14 @@ body {
     margin: 18px;
   }
   .subtitulos {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .subtitulos {
+    font-family: "fantasy";
+    color: black;
+    width: 180px;
+    height: auto;
+    border: 2px solid gainsboro;
   }
   .gradientes:hover .foto--transform {
     width: 200px;
@@ -715,6 +729,13 @@ body {
   }
   .subtitulos {
     font-size: 14px;
+  }
+  .subtitulos {
+    font-family: "fantasy";
+    color: black;
+    width: 120px;
+    height: auto;
+    border: 2px solid gainsboro;
   }
   .gradientes:hover .foto--transform {
     width: 145px;

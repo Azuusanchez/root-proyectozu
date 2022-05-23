@@ -1,3 +1,6 @@
+
+/* Agregando mixin en inicio y en servicios */
+
 @mixin fuente ( $font-family, $font-weight ) {
     font-family: $font-family;
     font-weight: $font-weight;
@@ -15,5 +18,8 @@
 
 .subtitulos {
     @include subtitulos ("fantasy", black);
+    width:250px;
+    height: auto;
+    border: 2px solid gainsboro
 
 }

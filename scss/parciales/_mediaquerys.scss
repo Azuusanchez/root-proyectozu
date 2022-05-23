@@ -176,8 +176,21 @@
             margin: 18px;
         }
         .subtitulos{
-            font-size: 20px;
+            font-size: 18px;
         }
+        @mixin subtitulos ( $font-family, $color) { 
+            font-family: $font-family;
+            color: $color;
+        }
+        
+        .subtitulos {
+            @include subtitulos ("fantasy", black);
+            width:180px;
+            height: auto;
+            border: 2px solid gainsboro
+        
+        }
+        
         .gradientes:hover .foto--transform{
             width: 200px;
             height: 200px;}
@@ -254,7 +267,21 @@
     }
     .subtitulos{
         font-size: 14px;
+       
     }
+    @mixin subtitulos( $font-family, $color) { 
+        font-family: $font-family;
+        color: $color;
+    }
+    
+    .subtitulos {
+        @include subtitulos ("fantasy", black);
+        width:120px;
+        height: auto;
+        border: 2px solid gainsboro
+    
+    }
+    
     .gradientes:hover .foto--transform{
         width: 145px;
         height: 145px;}
