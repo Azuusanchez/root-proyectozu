@@ -40,20 +40,6 @@ body {
   justify-content: center;
 }
 
-/* Agregando mixin en inicio y en servicios */
-.sub__servi {
-  font-family: "Cambria";
-  font-weight: 100px;
-}
-
-.subtitulos {
-  font-family: "fantasy";
-  color: black;
-  width: 250px;
-  height: auto;
-  border: 2px solid gainsboro;
-}
-
 .fondologo {
   width: 100px;
   height: 100px;
@@ -197,7 +183,7 @@ body {
 }
 
 .card {
-  background-color: #CCABDB;
+  background-color: #ff91af;
   padding: 2rem;
   margin: 20px;
 }
@@ -370,11 +356,7 @@ body {
   text-align: center;
   font-size: 35px;
   color: black;
-}
-
-.promo {
-  font-size: 25px;
-  text-align: center;
+  font-family: "fantasy";
 }
 
 .promocionesfondo {
@@ -412,6 +394,7 @@ body {
   text-align: center;
   padding-bottom: 15px;
   font-size: 24px;
+  font-family: "fantasy";
 }
 
 .fondocontacto {
