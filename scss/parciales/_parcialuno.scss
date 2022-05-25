@@ -16,7 +16,8 @@
         display: inline-block;
         bottom: 2rem;
         right: 2rem; 
-        position:fixed;}
+        position:fixed;
+        z-index: 100;}
         .jam-close-rectangle{ display: none;
     
         }

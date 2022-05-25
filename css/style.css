@@ -19,6 +19,7 @@ body {
   bottom: 2rem;
   right: 2rem;
   position: fixed;
+  z-index: 100;
 }
 
 .jam-close-rectangle {
@@ -187,6 +188,10 @@ body {
   background-color: #ff91af;
   padding: 2rem;
   margin: 20px;
+}
+
+.row {
+  margin-right: 0;
 }
 
 .sectionturno {
