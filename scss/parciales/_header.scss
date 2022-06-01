@@ -5,7 +5,7 @@
 }
 
 .menu { display: flex;
-    background-color: $background-color-principal;
+    background-color: $background-color-secundario;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
@@ -26,7 +26,7 @@
     padding-right: 0;
 
     &__la{
-        color: $color-secundario;
+        color: $color-palabras;
         text-decoration: none;
        }
    }
