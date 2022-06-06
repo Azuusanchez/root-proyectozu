@@ -13,6 +13,12 @@
     margin: 10px;
     color: $color-palabras;
     text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+.jam--footer:hover{
+    background-color: $background-color-principal;
+    transition: 5s;
 }
 
 .titulofooter{ 

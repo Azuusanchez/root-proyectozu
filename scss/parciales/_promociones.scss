@@ -11,8 +11,9 @@ height: auto;
 margin-bottom: 2rem;   
 }
 .fondo { background-color: $background-color-palabras;
-    margin: 2rem 0 0;
-     width: 100%;    
+    
+     width: 100%; 
+     height: auto;   
      &__promo{
         background-image: url( "../imagenes/alis\ \(2\).jpg") ;
         background-size: contain;
