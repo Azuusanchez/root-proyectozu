@@ -34,17 +34,18 @@ text-align: center;
     height: auto;
 }
 .articleservi{
-margin: 1rem;
+margin: 10px;
+
 color: $color-palabras;
 font-weight: 500;
 width: 90%;
 font-size: 1rem;
- border-radius: 2rem;
-padding: 1rem;
+padding: 5px;
 background-color:pink;
 
 }
 .sub__servi{
+  padding: 5px;
     text-align: center;
     font-size: 18px;
     color: $color-palabras;
@@ -60,18 +61,97 @@ background-color:pink;
 
 }
 .fotosuñas{
-    border: 4px solid gray;
+    border: 1px solid white;
     width: 200px;
     height: 200px;
-    border-radius:16px;
-    margin: 8px
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    border-radius:105px;
+    margin-left: 10px;
 }
 
 .parrafos{ 
-    font-size: 14px;
+    font-size: 15px;
     color:$color-secundario;
     height: auto;
-    padding: 10px;
+    padding: 5px;
 
 
 }
+.focus-in-contract {
+	-webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+.tituloinsta{
+    font-size: 40px;
+    text-shadow: 0px 15px 25px rgba(0,0,0,0.50);;
+    font-family: cursive;
+    text-align: center;
+    color:$color-secundario;
+    
+
+}
+.insta{
+  display:grid;
+  height: auto;
+  padding-left: 3rem;
+  grid-template-columns: 30% 30% 30% ;
+  grid-template-rows: 450px 450px   ;
+  gap: 22px;
+  grid-template-areas: 
+  "ele1 ele2 ele3"
+  "ele4 ele5 ele6";
+  
+  }
+  .insta_grid-1{
+    grid-area: ele1;
+  }
+  .insta_grid-2{
+    grid-area: ele2;
+  }
+  .insta_grid-3{
+    grid-area: ele3;
+  }
+  .insta_grid-4{
+    grid-area: ele4;
+  }
+  .insta_grid-5{
+    grid-area: ele5;
+  }
+  .insta_grid-6{
+    grid-area: ele6;
+  }
+  .insta__foto{
+    width: 450px;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+  
+  }

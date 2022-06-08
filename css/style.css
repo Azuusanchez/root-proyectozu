@@ -161,27 +161,56 @@ body {
 }
 
 .subtitulos {
-  color: white;
-  font-size: 28px;
-  margin: 1rem;
-  text-align: center;
+  color: black;
+  font-size: 25px;
+  border: 1px solid gray;
+  background-color: #f5abb0;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
 .subtitulos {
   font-family: "fantasy";
-  color: black;
-  width: 250px;
+  color: white;
+  width: 200px;
+  padding: 5px;
   height: auto;
-  border: 2px solid gainsboro;
+}
+
+.subtitulos:hover {
+  color: black;
+}
+
+.inicio-fondo {
+  background-image: url(/imagenes/fondo1.jpg);
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2rem;
+}
+
+.inicio-parrafo {
+  margin-top: 2rem;
+  text-align: center;
+  margin-left: 2rem;
+  color: white;
+}
+
+.tipfoto {
+  width: 400px;
+  height: 250px;
+  margin-top: 1rem;
+  margin-left: 20px;
+  margin-bottom: 1rem;
 }
 
 .foto {
   color: white;
-  border: 3px solid;
-  border-radius: 20px;
-  margin: 1rem;
-  width: 250px;
-  height: 250px;
+  border: 6px solid black;
+  border-radius: 100px;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
 }
 
 .foto--transform {
@@ -190,46 +219,29 @@ body {
 }
 
 .gradientes:hover .foto--transform {
-  width: 300px;
-  height: 300px;
-}
-
-.card {
-  background-color: #ff91af;
-  padding: 2rem;
-  margin: 20px;
+  width: 210px;
+  height: 210px;
 }
 
 .row {
   margin-right: 0;
-}
-
-.insta {
-  background-image: url("/imagenes/fondo2.jpg");
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.insta__foto {
-  width: 300px;
-  height: 420px;
-  margin: 1rem;
-  padding: 1rem;
+  padding: 6px;
+  margin-left: 1rem;
 }
 
 .contenedor {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  margin-bottom: 2rem;
 }
 
 .contenedor figure {
   position: relative;
-  height: 300px;
-  width: 250px;
+  height: 290px;
+  width: 220px;
   border-radius: 6px;
   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
   cursor: pointer;
@@ -246,7 +258,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(11, 103, 123, 0.6);
+  background: rgba(255, 192, 203, 0.6);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
@@ -259,7 +271,10 @@ body {
 }
 
 .contenedor figure:hover > .capa h3 {
-  margin-top: 70px;
+  margin-top: 100px;
+  color: white;
+  font-family: cursive;
+  padding: 5px;
 }
 
 .sectionturno {
@@ -281,6 +296,11 @@ body {
   width: 30%;
   height: auto;
   margin-top: 300px;
+}
+
+.precios {
+  width: 350px;
+  height: 430px;
 }
 
 .fondoturnos {
@@ -347,17 +367,17 @@ body {
 }
 
 .articleservi {
-  margin: 1rem;
+  margin: 10px;
   color: white;
   font-weight: 500;
   width: 90%;
   font-size: 1rem;
-  border-radius: 2rem;
-  padding: 1rem;
+  padding: 5px;
   background-color: pink;
 }
 
 .sub__servi {
+  padding: 5px;
   text-align: center;
   font-size: 18px;
   color: white;
@@ -369,18 +389,101 @@ body {
 }
 
 .fotosuñas {
-  border: 4px solid gray;
+  border: 1px solid white;
   width: 200px;
   height: 200px;
-  border-radius: 16px;
-  margin: 8px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 105px;
+  margin-left: 10px;
 }
 
 .parrafos {
-  font-size: 14px;
+  font-size: 15px;
   color: black;
   height: auto;
-  padding: 10px;
+  padding: 5px;
+}
+
+.focus-in-contract {
+  -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.tituloinsta {
+  font-size: 40px;
+  text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  font-family: cursive;
+  text-align: center;
+  color: black;
+}
+
+.insta {
+  display: grid;
+  height: auto;
+  padding-left: 3rem;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 450px 450px;
+  gap: 22px;
+  grid-template-areas: "ele1 ele2 ele3" "ele4 ele5 ele6";
+}
+
+.insta_grid-1 {
+  grid-area: ele1;
+}
+
+.insta_grid-2 {
+  grid-area: ele2;
+}
+
+.insta_grid-3 {
+  grid-area: ele3;
+}
+
+.insta_grid-4 {
+  grid-area: ele4;
+}
+
+.insta_grid-5 {
+  grid-area: ele5;
+}
+
+.insta_grid-6 {
+  grid-area: ele6;
+}
+
+.insta__foto {
+  width: 450px;
+  height: auto;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .titulo2 {
@@ -538,11 +641,12 @@ body {
 }
 
 .jam--footer {
-  margin: 10px;
+  margin: 8px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  padding: 6px;
+  padding: 5px;
+  background-color: cadetblue;
 }
 
 .jam--footer:hover {
@@ -565,8 +669,15 @@ body {
     flex-direction: column;
   }
   .navegador__la {
-    color: white;
+    color: black;
     text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .navegador__la:hover {
+    color: white;
+    background-color: black;
+    transition: 5s;
   }
   .nav {
     padding: 0;
@@ -575,8 +686,15 @@ body {
   .seccion {
     margin: 60px 0 2px 0;
   }
+  .figura {
+    display: none;
+  }
   .insta__no {
     display: none;
+  }
+  .tipfoto {
+    width: 300px;
+    height: 240px;
   }
   .fondo {
     margin: 3rem 0 0;
@@ -596,11 +714,9 @@ body {
     min-height: 300px;
   }
   .fotosuñas {
-    border: 3px solid plum;
-    width: 150px;
-    height: 150px;
-    border-radius: 14px;
-    margin: 1rem;
+    width: 190px;
+    height: 190px;
+    margin-left: 24px;
   }
   .contacto {
     padding-bottom: 12px;
@@ -702,37 +818,48 @@ body {
     width: 40%;
   }
   .sub__servi {
-    font-size: 14px;
+    font-size: 16px;
   }
-  .parrafos {
-    font-size: 9px;
-    padding: 8px;
-  }
-  .foto {
-    width: 150px;
-    height: 150px;
-    border: 3px solid;
-    border-radius: 15px;
-    margin: 15px;
-  }
-  .card {
-    padding: 10px;
-    margin: 18px;
-  }
-  .subtitulos {
-    font-size: 18px;
-  }
-  .subtitulos {
-    font-family: "fantasy";
-    color: black;
-    width: 180px;
-    height: auto;
-    border: 2px solid gainsboro;
-  }
-  .gradientes:hover .foto--transform {
-    width: 200px;
-    height: 200px;
-  }
+}
+
+.insta {
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.insta__foto {
+  width: 250px;
+  height: auto;
+  margin: 15px;
+  padding: 10px;
+}
+
+.parrafos {
+  font-size: 14px;
+  padding: 8px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+
+.subtitulos {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.subtitulos {
+  font-family: "fantasy";
+  color: white;
+  width: 180px;
+  height: auto;
+}
+
+.gradientes:hover .foto--transform {
+  width: 160px;
+  height: 160px;
 }
 
 .fondo__promo {
@@ -762,6 +889,14 @@ body {
   margin: 1rem;
 }
 
+.jam--footer1 {
+  display: none;
+}
+
+.titulofooter {
+  font-size: 16px;
+}
+
 @media screen and (max-width: 600px) {
   .nav {
     display: none;
@@ -778,31 +913,52 @@ body {
     display: flex;
     color: black;
   }
+  .menu__icono:hover {
+    color: white;
+  }
   .seccion {
     margin: 1rem 0px;
     padding: 0;
   }
   .foto {
-    text-align: center;
     width: 150px;
     height: 150px;
-    border: 3px solid;
-    border-radius: 12px;
-    margin: 5px;
     margin-left: 2rem;
   }
-  .card {
-    padding: 5px;
-    margin: 5px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+  .gradientes:hover .foto--transform {
+    width: 170px;
+    height: 170px;
+  }
+  .inicio-parrafo {
+    margin-top: 1rem;
+    text-align: justify;
+    margin-left: 3px;
+    font-size: 14px;
+  }
+  .tipfoto {
+    width: 200px;
+    height: 210px;
+    margin-left: 3px;
+  }
+  .contenedor {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+  }
+  .contenedor figure {
+    height: 250px;
+    margin-left: 3rem;
   }
   .insta {
-    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
   }
   .insta__foto {
-    width: 250px;
-    height: 350px;
+    width: 220px;
+    height: 300px;
+    margin: 15px;
+    padding: 10px;
   }
   .subtitulos {
     font-size: 20px;
@@ -813,10 +969,7 @@ body {
     width: 200px;
     height: auto;
     border: 2px solid gainsboro;
-  }
-  .gradientes:hover .foto--transform {
-    width: 200px;
-    height: 200px;
+    margin-left: 2rem;
   }
   .fondo {
     background: white;
@@ -852,6 +1005,7 @@ body {
   }
   .navegador {
     flex-direction: column;
+    margin-top: 2rem;
   }
   .turno {
     font-size: 20px;
@@ -1026,12 +1180,7 @@ body {
     padding: 10px;
   }
   .carrusel__pa {
-    background-color: black;
-    color: white;
-    width: 80%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 1rem;
+    display: none;
   }
   .carrusel__img {
     width: 100%;
@@ -1068,6 +1217,12 @@ body {
     margin: 1rem;
     margin-left: 2%;
   }
+  .insta {
+    flex-direction: row;
+  }
+  .instan_no {
+    display: none;
+  }
   .logofooter {
     width: 80px;
     height: 80px;
@@ -1078,6 +1233,8 @@ body {
   }
   .jam--footer {
     margin: 5px;
+    border-radius: 3px;
+    padding: 3px;
   }
   .mapafooter {
     width: 80px;

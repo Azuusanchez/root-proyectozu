@@ -4,9 +4,17 @@
             flex-direction: column;
         }
         .navegador__la{
-            color:white;
+            color:black;
             text-decoration: none;
+            padding: 5px;
+            border-radius: 3px;
            }
+           .navegador__la:hover {
+            color: white;
+            background-color: black;
+            transition: 5s;
+        }
+          
         .nav{
             padding:0;
             margin: 0;
@@ -15,9 +23,16 @@
             margin: 60px 0 2px 0;
     
         }
+        .figura{
+            display:none;
+        }
       
         .insta__no{
             display: none;
+        }
+        .tipfoto{ width:300px;
+            height: 240px;
+
         }
         .fondo {
             margin: 3rem 0 0;
@@ -40,12 +55,10 @@
                        min-height: 300px;
                    }
                   
-                   .fotosuñas{ border: 3px solid plum;
-                    width: 150px;
-                    height: 150px;
-                    border-radius:14px;
-                    margin: 1rem;
-                   }
+                   .fotosuñas{ 
+                       width: 190px;
+                       height: 190px;
+                       margin-left: 24px;}
                 .contacto{
                     padding-bottom: 12px;
                     font-size: 18px;
@@ -160,27 +173,39 @@
             width:40% ;
     
         }
-        .sub__servi{ font-size: 14px;
+        .sub__servi{ font-size: 16px;
     
         }
+    }
+    .insta{
+        gap: 20px;
+        padding-left: 10px;
+
+       
+        
+    }
+
+    .insta__foto{
+        width: 250px;
+        height: auto;
+        margin: 15px;
+        padding: 10px;
+    }
+    
         .parrafos{
-            font-size: 9px;
+            font-size: 14px;
             padding: 8px;
         }
         .foto{
             width:150px;
             height: 150px;
-            border: 3px solid ;
-            border-radius: 15px;
-            margin: 15px;
+            margin:8px;
     
         }
-        .card{
-            padding: 10px;
-            margin: 18px;
-        }
+       
         .subtitulos{
-            font-size: 18px;
+            font-size: 16px;
+            margin: 10px;
         }
         @mixin subtitulos ( $font-family, $color) { 
             font-family: $font-family;
@@ -188,19 +213,19 @@
         }
         
         .subtitulos {
-            @include subtitulos ("fantasy", black);
+            @include subtitulos ("fantasy", white);
             width:180px;
             height: auto;
-            border: 2px solid gainsboro
+           
         
         }
         
         .gradientes:hover .foto--transform{
-            width: 200px;
-            height: 200px;}
+            width: 160px;
+            height: 160px;}
             
         
-    }
+    
     .fondo__promo{
     height: 350px;    
     padding: 3rem; 
@@ -227,7 +252,16 @@
     height: auto;
     margin: 1rem;
     }
+
     
+    
+    .jam--footer1{
+        display: none;
+        
+    }
+    .titulofooter{
+        font-size: 16px;
+    }
     
     
     
@@ -248,6 +282,9 @@
                
             }
         }
+        .menu__icono:hover{
+            color: white;
+        }
         
        
     
@@ -259,27 +296,53 @@
      
     
      .foto{
-         text-align: center;
-        width:150px;
+        width: 150px;
         height: 150px;
-        border: 3px solid ;
-        border-radius: 12px;
-        margin: 5px;
-         margin-left: 2rem;}
-    .card{
-        padding: 5px;
-        margin: 5px;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
+        margin-left: 2rem;
+
+        }
+        .gradientes:hover .foto--transform{
+            width: 170px;
+            height: 170px;}
+        .inicio-parrafo{
+            margin-top: 1rem;
+            text-align: justify;
+            margin-left: 3px;
+            font-size: 14px;
+        }
+      .tipfoto{
+          width: 200px;
+          height: 210px ;
+          margin-left: 3px;
+
+      }
+      .contenedor{
+          width: 100%;
+          flex-direction: column;
+          justify-content: space-between;
+          height: auto;
+          
+      }
+      .contenedor figure{
+          height: 250px;
+          margin-left: 3rem;
+      
+      }
     .insta{
-        flex-direction: column;
+        gap: 20px;
+        padding-left: 10px;
+
+       
         
     }
+
     .insta__foto{
-        width: 250px;
-        height: 350px;
+        width: 220px;
+        height: 300px;
+        margin: 15px;
+        padding: 10px;
     }
+    
 
     .subtitulos{
         font-size: 20px;
@@ -294,13 +357,12 @@
         @include subtitulos ("fantasy", black);
         width:200px;
         height: auto;
-        border: 2px solid gainsboro
+        border: 2px solid gainsboro;
+        margin-left: 2rem;
     
     }
     
-    .gradientes:hover .foto--transform{
-        width: 200px;
-        height: 200px;}
+    
      
      .fondo{
         background: $color-palabras;
@@ -340,7 +402,9 @@
     
         .navegador{
             flex-direction: column;
-        }
+            margin-top: 2rem;
+            }
+       
       
         .turno{
             font-size: 20px;
@@ -530,14 +594,7 @@
                 
             }
              &__pa{ 
-                 background-color: $color-secundario;
-                color: $color-palabras;
-                width: 80%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                margin: 1rem;
-               
-        
+                 display: none;
              }
             &__img{
               width: 100%;
@@ -583,6 +640,12 @@
             margin-left: 2%;
         
             }
+            .insta{
+                flex-direction: row;
+            }
+            .instan_no{
+                display: none;
+            }
             
      
         .logofooter{
@@ -595,11 +658,13 @@
         }
         .jam--footer{
             margin: 5px;
+            border-radius: 3px;
+            padding: 3px;
         }
         .mapafooter{
             width: 80px;
             height: 70px;
-        }
+}
     }
     
     
