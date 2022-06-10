@@ -80,7 +80,7 @@ text-decoration: none;
 
 .subtitulos {
   @include subtitulos ("fantasy", white);
-  width:200px;
+  width: 250px;
   padding: 5px;
   height: auto;
   margin: 5px;
@@ -115,7 +115,7 @@ text-decoration: none;
    margin-bottom: 1rem;
  }
 
-.gradientes{ width: 205px;
+.gradientes{ width: 400px;
   height: auto;
   border: 1px solid gray;
   margin-bottom: 2rem;
@@ -126,8 +126,8 @@ text-decoration: none;
 
 .foto {  
      color:$color-palabras;
-width: 200px;
-height: 200px;
+width: 210px;
+height: 210px;
 }
 
 

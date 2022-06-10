@@ -171,7 +171,7 @@ body {
 .subtitulos {
   font-family: "fantasy";
   color: white;
-  width: 200px;
+  width: 250px;
   padding: 5px;
   height: auto;
   margin: 5px;
@@ -206,7 +206,7 @@ body {
 }
 
 .gradientes {
-  width: 205px;
+  width: 400px;
   height: auto;
   border: 1px solid gray;
   margin-bottom: 2rem;
@@ -215,8 +215,8 @@ body {
 
 .foto {
   color: white;
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
 }
 
 .foto--transform {
