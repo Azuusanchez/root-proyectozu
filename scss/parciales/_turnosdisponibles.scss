@@ -21,22 +21,25 @@ text-align: center;
     
 }
 
-.precios{
-    width: 350px;
-    height: 430px;
-}
+
 
 .fondoturnos { padding: 1rem;
-    min-height: 300px;
+    min-height: 400px;
     border: 2px solid gainsboro;
     text-align: center;
 
 }
 
 .turno{
-margin: 2rem;
+    display: inline;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
 font-size: 30px ;
-color: $color-secundario;
+color: $color-palabras;
+background-color: $background-color-secundario;
+width: 30%;
+padding: 4px;
 text-align: center;
 
 
@@ -52,4 +55,13 @@ text-align: center;
     text-align: center;
 
 
+}
+.button__turno:hover{
+    width: 55%;
+    box-shadow: 5px 25px 30px rgba(0,0,0,0.50)
+}
+.parrafoturno{
+    margin-top: 2rem;
+    padding: 2px;
+    
 }

@@ -7,10 +7,11 @@ padding: 3rem;
 text-align: center;
 }
 .servicio__parraf{
-    color: $color-palabras;
+    color: $color-secundario;
     font-size: 30px;
-    background-color: $color-secundario;
-    width: 60%;
+    background-color: $color-palabras;
+    width: 80%;
+    padding: 10px;
     height: auto;
     margin: 1rem;
 
@@ -78,8 +79,8 @@ background-color:pink;
 
 }
 .focus-in-contract {
-	-webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: focus-in-contract 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
  @-webkit-keyframes focus-in-contract {
@@ -110,7 +111,7 @@ background-color:pink;
   }
   
 .tituloinsta{
-    font-size: 40px;
+    font-size: 38px;
     text-shadow: 0px 15px 25px rgba(0,0,0,0.50);;
     font-family: cursive;
     text-align: center;
@@ -121,14 +122,20 @@ background-color:pink;
 .insta{
   display:grid;
   height: auto;
-  padding-left: 3rem;
+  margin-left: 6%;
   grid-template-columns: 30% 30% 30% ;
-  grid-template-rows: 450px 450px   ;
-  gap: 22px;
+  grid-template-rows: 440px 440px   ;
+  gap: 20px;
   grid-template-areas: 
   "ele1 ele2 ele3"
   "ele4 ele5 ele6";
   
+  }
+  
+  .instag{
+    width: 300px;
+    height: 430px;
+    margin-bottom: 1rem;
   }
   .insta_grid-1{
     grid-area: ele1;
@@ -148,10 +155,4 @@ background-color:pink;
   .insta_grid-6{
     grid-area: ele6;
   }
-  .insta__foto{
-    width: 450px;
-    height: auto;
-    margin: 1rem;
-    padding: 1rem;
   
-  }

@@ -178,33 +178,34 @@
         }
     }
     .insta{
-        gap: 20px;
-        padding-left: 10px;
-
-       
-        
+     margin-left: 2%;
+  
     }
-
-    .insta__foto{
+    .instag{
+        margin-top: 1rem;
         width: 250px;
-        height: auto;
-        margin: 15px;
-        padding: 10px;
-    }
+        height: 380px;
+        margin-bottom: 1rem;
+      }
+
+   
     
         .parrafos{
             font-size: 14px;
             padding: 8px;
         }
+        .gradientes{
+            width: 170px;
+        }
         .foto{
-            width:150px;
-            height: 150px;
-            margin:8px;
+            width:140px;
+            height: 140px;
+            margin: 5px;
     
         }
        
         .subtitulos{
-            font-size: 16px;
+            font-size: 14px;
             margin: 10px;
         }
         @mixin subtitulos ( $font-family, $color) { 
@@ -221,8 +222,8 @@
         }
         
         .gradientes:hover .foto--transform{
-            width: 160px;
-            height: 160px;}
+            width: 150px;
+            height: 150px;}
             
         
     
@@ -293,27 +294,37 @@
         padding: 0;
       }
     
-     
+     .gradientes{
+
+        width: 215px;
+
+     }
     
      .foto{
-        width: 150px;
-        height: 150px;
-        margin-left: 2rem;
+        width: 180px;
+        height: 180px;
+        margin-left: 8px;
 
         }
         .gradientes:hover .foto--transform{
-            width: 170px;
-            height: 170px;}
+            width: 190px;
+            height: 190px;}
+
         .inicio-parrafo{
             margin-top: 1rem;
             text-align: justify;
-            margin-left: 3px;
+            padding-right: 10px;
+            margin-left: 0;
             font-size: 14px;
         }
+        .row> {
+            padding-left: 0;
+        }
       .tipfoto{
-          width: 200px;
-          height: 210px ;
-          margin-left: 3px;
+          width: 190px;
+          height: 200px ;
+          margin-left: 0;
+          margin-right: 1rem;
 
       }
       .contenedor{
@@ -345,8 +356,8 @@
     
 
     .subtitulos{
-        font-size: 20px;
-       
+        font-size: 17px;
+       text-align: center;
     }
     @mixin subtitulos( $font-family, $color) { 
         font-family: $font-family;
@@ -358,7 +369,7 @@
         width:200px;
         height: auto;
         border: 2px solid gainsboro;
-        margin-left: 2rem;
+        margin-left: 1rem;
     
     }
     
@@ -424,18 +435,24 @@
     
        }
        .contacto{
-        font-size: 16px;}
+        font-size: 16px;
+    padding-bottom: 5px;
+margin-bottom: 5px;}
+        .row--contacto{
+            margin-left: 0;
+            padding: 0;
+        }
      .fondocontacto{
-        width: 280px;
+        width: 250px;
         background: rgba(0, 0,0.4,0);
         padding: 4px 8px;
         box-sizing: border-box;
         margin-top: 6px;
-        margin-left: 3rem;
+        margin-left:5px;
         border-radius: 5px;
         padding-bottom: 15px;
          margin-bottom: 6px;}
-        .mensaje { font-size: 15px;}
+        .mensaje { font-size: 14px;}
         .type{background-color: pink;
             color: gray;
             width: 80%;
@@ -443,7 +460,7 @@
             box-sizing: border-box;
             border-radius: 8px;
             padding: 5px 1rem 5px;
-            font-size: 10px;
+            font-size: 12px;
             border: none;}
             .sectioncontacto{
                 width: 100%;
@@ -456,7 +473,7 @@
                 font-size: 30px;
         text-align: center;
         padding: 1rem;
-        width:70%;
+        width: 90%;
         height: auto;  
         margin-top: 150px;
     
@@ -467,10 +484,12 @@
                 text-align: center;
                 }
                 .servicio__parraf{
-                    font-size: 18px;
-                    width: 85%;
+                    font-size: 15px;
+                    width: 100%;
                     height: auto;
-                    margin: 1rem;
+                    margin-top: 3rem;
+                    margin-left: 5px;
+                    padding: 5px;
                 
                 }
                 .servicio__titulo{
@@ -490,6 +509,19 @@
                 text-align: center;
                 
                 }
+                .turno{
+                    font-size: 16px;
+                }
+                .parrafoturno{
+                    font-size: 13px;
+                    margin-top: 5px;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                }
+                .parraf-turno{
+                    font-size: 15px;
+
+                }
                 .turno__titulo{
                      font-size: 30px;
                      text-align: center;
@@ -501,21 +533,27 @@
                 }
             .botone{
                 width: 90px;
-    
+            }
+            .botone:hover{
+               width: 110px;
             }
             .mapa{
-                width: 300px;
+                width: 250px;
                 height: 200px;
-                margin-left: 3rem;
+                margin-left: 5px;
                 margin-bottom: 10px;
             }
     
     
             .button__turno{
-                width:20% ;
-                padding: 5px;
+                width: 96%; 
+                padding: 10px;
+                font-size: 14px;
             }
-    
+            .button__turno:hover{
+                width: 98% ;
+            }
+
             .section{
                 height: 200 auto;
                 width: 100%;
@@ -524,19 +562,24 @@
                align-items: center;
             
             }
+            .row__promo{
+                margin-left: 10px;
+            }
             .promocionesfondo{
                 width: 80%;
                 margin-left: 10%;
                 margin-right: 10%;
+                padding: 5px;
+                margin-bottom: 10px;
     
             }
             .imagenpromo{
-                width: 250px;
-                height: 2500x;
+                width: 200px;
+                height: 200px;
                 padding: 5px;
-                margin: 5px;
+                margin: 0;
+                border-radius: 1px;
                
-                border-radius: 1rem;
                 
             }
             .subpromo{ 
@@ -544,7 +587,7 @@
                 font-size: 20px ;
                 color:$color-secundario;}
                 .parraf{
-                    text-align: center;
+                    text-align: justify;
                     font-size: 15px;
                 }
                  .promo{
@@ -561,20 +604,24 @@
             justify-content: center;
             width:80% ;
             padding: 10px;
-            margin: 10px 3rem 10px 3rem;
+            margin: 10px 2rem 10px 2rem;
     
         }
-        .sub__servi{ font-size: 12px;
+        .sub__servi{ font-size: 16px;
     
         }
         .fotosuñas{
             width: 200px;
             height: 200px;
-            margin: 1rem;
+            border-radius:105px;
+            
         }
         .parrafos{
-            font-size: 10px;
+            font-size: 14px;
             padding: 5px;
+        }
+        .tituloinsta{
+            font-size: 20px;
         }
         .button__turno{
             width: 60%;}  
@@ -614,40 +661,52 @@
         }
         
         .fondo__promo{
+            width: 100%;
             height: 300px;    
-            padding: 3rem; 
+            padding: 2rem; 
             text-align: center;
             
             }
             .titulo2{ 
-            
+            margin-top: 2rem;
             color: $color-secundario ;
             font-size: 30px;
             text-align: center;
             padding: 10px;
-            width: 80%;
-            height: auto;  
-            margin-bottom: 1rem;   
-            }
+            width: 100%;
+            height: auto;  }
+        
             
             .fondo__parraf {
             color: $color-palabras;
-            font-size: 15px;
+            font-size: 14px;
             background-color: $color-secundario;
-            width: 80%;
+            width: 100%;
             height: auto;
-            margin: 1rem;
             margin-left: 2%;
+            padding: 10px;
+            margin-bottom: 5px;
+            margin-top: 5rem;
         
             }
             .insta{
-                flex-direction: row;
+                margin-left: 5px;
+                display: row;
+                grid-template-columns: 45% 45%  ;
+                grid-template-rows: 180px 180px 180px;
+                grid-template-areas: 
+                "ele1 ele2 "
+              "ele3 ele4"
+              "ele5 ele6";
+                gap: 10px;
+
             }
-            .instan_no{
-                display: none;
-            }
-            
-     
+                       
+         .instag{
+    width: 130px;
+    height: 180px;
+    margin-bottom: 10px;
+  }   
         .logofooter{
             width: 80px;
             height: 80px;
@@ -663,8 +722,5 @@
         }
         .mapafooter{
             width: 80px;
-            height: 70px;
-}
-    }
-    
-    
+            height: 70px}
+        }

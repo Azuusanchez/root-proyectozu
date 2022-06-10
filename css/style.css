@@ -165,7 +165,6 @@ body {
   font-size: 25px;
   border: 1px solid gray;
   background-color: #f5abb0;
-  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
 
@@ -175,10 +174,12 @@ body {
   width: 200px;
   padding: 5px;
   height: auto;
+  margin: 5px;
 }
 
 .subtitulos:hover {
   color: black;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
 }
 
 .inicio-fondo {
@@ -204,11 +205,16 @@ body {
   margin-bottom: 1rem;
 }
 
+.gradientes {
+  width: 205px;
+  height: auto;
+  border: 1px solid gray;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
 .foto {
   color: white;
-  border: 6px solid black;
-  border-radius: 100px;
-  margin: 10px;
   width: 200px;
   height: 200px;
 }
@@ -226,7 +232,7 @@ body {
 .row {
   margin-right: 0;
   padding: 6px;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .contenedor {
@@ -298,22 +304,22 @@ body {
   margin-top: 300px;
 }
 
-.precios {
-  width: 350px;
-  height: 430px;
-}
-
 .fondoturnos {
   padding: 1rem;
-  min-height: 300px;
+  min-height: 400px;
   border: 2px solid gainsboro;
   text-align: center;
 }
 
 .turno {
-  margin: 2rem;
+  display: inline;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 30px;
-  color: black;
+  color: white;
+  background-color: black;
+  width: 30%;
+  padding: 4px;
   text-align: center;
 }
 
@@ -328,6 +334,16 @@ body {
   text-align: center;
 }
 
+.button__turno:hover {
+  width: 55%;
+  box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.5);
+}
+
+.parrafoturno {
+  margin-top: 2rem;
+  padding: 2px;
+}
+
 .sectionservicios {
   background-image: url("../imagenes/imagenes (2).jpg");
   background-size: contain;
@@ -338,10 +354,11 @@ body {
 }
 
 .servicio__parraf {
-  color: white;
+  color: black;
   font-size: 30px;
-  background-color: black;
-  width: 60%;
+  background-color: white;
+  width: 80%;
+  padding: 10px;
   height: auto;
   margin: 1rem;
 }
@@ -405,8 +422,8 @@ body {
 }
 
 .focus-in-contract {
-  -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: focus-in-contract 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: focus-in-contract 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: focus-in-contract 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes focus-in-contract {
@@ -438,7 +455,7 @@ body {
 }
 
 .tituloinsta {
-  font-size: 40px;
+  font-size: 38px;
   text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
   font-family: cursive;
   text-align: center;
@@ -448,11 +465,17 @@ body {
 .insta {
   display: grid;
   height: auto;
-  padding-left: 3rem;
+  margin-left: 6%;
   grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 450px 450px;
-  gap: 22px;
+  grid-template-rows: 440px 440px;
+  gap: 20px;
   grid-template-areas: "ele1 ele2 ele3" "ele4 ele5 ele6";
+}
+
+.instag {
+  width: 300px;
+  height: 430px;
+  margin-bottom: 1rem;
 }
 
 .insta_grid-1 {
@@ -477,13 +500,6 @@ body {
 
 .insta_grid-6 {
   grid-area: ele6;
-}
-
-.insta__foto {
-  width: 450px;
-  height: auto;
-  margin: 1rem;
-  padding: 1rem;
 }
 
 .titulo2 {
@@ -523,7 +539,7 @@ body {
 }
 
 .imagenpromo {
-  width: 400px;
+  width: 380px;
   height: 300px;
   border-radius: 1rem;
   margin: 1rem;
@@ -618,6 +634,11 @@ body {
   border: 2px solid white;
   border-radius: 5px;
   text-align: center;
+}
+
+.botone:hover {
+  width: 150px;
+  padding: 10px;
 }
 
 .sectioncontacto {
@@ -823,15 +844,14 @@ body {
 }
 
 .insta {
-  gap: 20px;
-  padding-left: 10px;
+  margin-left: 2%;
 }
 
-.insta__foto {
+.instag {
+  margin-top: 1rem;
   width: 250px;
-  height: auto;
-  margin: 15px;
-  padding: 10px;
+  height: 380px;
+  margin-bottom: 1rem;
 }
 
 .parrafos {
@@ -839,14 +859,18 @@ body {
   padding: 8px;
 }
 
+.gradientes {
+  width: 170px;
+}
+
 .foto {
-  width: 150px;
-  height: 150px;
-  margin: 8px;
+  width: 140px;
+  height: 140px;
+  margin: 5px;
 }
 
 .subtitulos {
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px;
 }
 
@@ -858,8 +882,8 @@ body {
 }
 
 .gradientes:hover .foto--transform {
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
 }
 
 .fondo__promo {
@@ -920,25 +944,33 @@ body {
     margin: 1rem 0px;
     padding: 0;
   }
+  .gradientes {
+    width: 215px;
+  }
   .foto {
-    width: 150px;
-    height: 150px;
-    margin-left: 2rem;
+    width: 180px;
+    height: 180px;
+    margin-left: 8px;
   }
   .gradientes:hover .foto--transform {
-    width: 170px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
   }
   .inicio-parrafo {
     margin-top: 1rem;
     text-align: justify;
-    margin-left: 3px;
+    padding-right: 10px;
+    margin-left: 0;
     font-size: 14px;
   }
+  .row > {
+    padding-left: 0;
+  }
   .tipfoto {
-    width: 200px;
-    height: 210px;
-    margin-left: 3px;
+    width: 190px;
+    height: 200px;
+    margin-left: 0;
+    margin-right: 1rem;
   }
   .contenedor {
     width: 100%;
@@ -961,7 +993,8 @@ body {
     padding: 10px;
   }
   .subtitulos {
-    font-size: 20px;
+    font-size: 17px;
+    text-align: center;
   }
   .subtitulos {
     font-family: "fantasy";
@@ -969,7 +1002,7 @@ body {
     width: 200px;
     height: auto;
     border: 2px solid gainsboro;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   .fondo {
     background: white;
@@ -1024,20 +1057,26 @@ body {
   }
   .contacto {
     font-size: 16px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .row--contacto {
+    margin-left: 0;
+    padding: 0;
   }
   .fondocontacto {
-    width: 280px;
+    width: 250px;
     background: rgba(0, 0, 0, 0);
     padding: 4px 8px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-left: 3rem;
+    margin-left: 5px;
     border-radius: 5px;
     padding-bottom: 15px;
     margin-bottom: 6px;
   }
   .mensaje {
-    font-size: 15px;
+    font-size: 14px;
   }
   .type {
     background-color: pink;
@@ -1047,7 +1086,7 @@ body {
     box-sizing: border-box;
     border-radius: 8px;
     padding: 5px 1rem 5px;
-    font-size: 10px;
+    font-size: 12px;
     border: none;
   }
   .sectioncontacto {
@@ -1060,7 +1099,7 @@ body {
     font-size: 30px;
     text-align: center;
     padding: 1rem;
-    width: 70%;
+    width: 90%;
     height: auto;
     margin-top: 150px;
   }
@@ -1070,10 +1109,12 @@ body {
     text-align: center;
   }
   .servicio__parraf {
-    font-size: 18px;
-    width: 85%;
+    font-size: 15px;
+    width: 100%;
     height: auto;
-    margin: 1rem;
+    margin-top: 3rem;
+    margin-left: 5px;
+    padding: 5px;
   }
   .servicio__titulo {
     font-size: 25px;
@@ -1089,6 +1130,18 @@ body {
     padding: 3rem;
     text-align: center;
   }
+  .turno {
+    font-size: 16px;
+  }
+  .parrafoturno {
+    font-size: 13px;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .parraf-turno {
+    font-size: 15px;
+  }
   .turno__titulo {
     font-size: 30px;
     text-align: center;
@@ -1100,15 +1153,22 @@ body {
   .botone {
     width: 90px;
   }
+  .botone:hover {
+    width: 110px;
+  }
   .mapa {
-    width: 300px;
+    width: 250px;
     height: 200px;
-    margin-left: 3rem;
+    margin-left: 5px;
     margin-bottom: 10px;
   }
   .button__turno {
-    width: 20%;
-    padding: 5px;
+    width: 96%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .button__turno:hover {
+    width: 98%;
   }
   .section {
     height: 200 auto;
@@ -1117,17 +1177,22 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .row__promo {
+    margin-left: 10px;
+  }
   .promocionesfondo {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    padding: 5px;
+    margin-bottom: 10px;
   }
   .imagenpromo {
-    width: 250px;
-    height: 2500x;
+    width: 200px;
+    height: 200px;
     padding: 5px;
-    margin: 5px;
-    border-radius: 1rem;
+    margin: 0;
+    border-radius: 1px;
   }
   .subpromo {
     text-align: center;
@@ -1135,7 +1200,7 @@ body {
     color: black;
   }
   .parraf {
-    text-align: center;
+    text-align: justify;
     font-size: 15px;
   }
   .promo {
@@ -1151,19 +1216,22 @@ body {
     justify-content: center;
     width: 80%;
     padding: 10px;
-    margin: 10px 3rem 10px 3rem;
+    margin: 10px 2rem 10px 2rem;
   }
   .sub__servi {
-    font-size: 12px;
+    font-size: 16px;
   }
   .fotosuñas {
     width: 200px;
     height: 200px;
-    margin: 1rem;
+    border-radius: 105px;
   }
   .parrafos {
-    font-size: 10px;
+    font-size: 14px;
     padding: 5px;
+  }
+  .tituloinsta {
+    font-size: 20px;
   }
   .button__turno {
     width: 60%;
@@ -1195,33 +1263,43 @@ body {
     margin: 1rem;
   }
   .fondo__promo {
+    width: 100%;
     height: 300px;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
   }
   .titulo2 {
+    margin-top: 2rem;
     color: black;
     font-size: 30px;
     text-align: center;
     padding: 10px;
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin-bottom: 1rem;
   }
   .fondo__parraf {
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     background-color: black;
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin: 1rem;
     margin-left: 2%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5rem;
   }
   .insta {
-    flex-direction: row;
+    margin-left: 5px;
+    display: row;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 180px 180px 180px;
+    grid-template-areas: "ele1 ele2 " "ele3 ele4" "ele5 ele6";
+    gap: 10px;
   }
-  .instan_no {
-    display: none;
+  .instag {
+    width: 130px;
+    height: 180px;
+    margin-bottom: 10px;
   }
   .logofooter {
     width: 80px;
