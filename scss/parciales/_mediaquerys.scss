@@ -38,8 +38,8 @@
             margin: 0;
             padding-top: 8rem;
             &logo{
-                width: 85px;
-                height: 85px;
+                width: 100px;
+                height: 110px;
             }
         }
        
@@ -58,9 +58,10 @@
                    }
                   
                    .fotosuñas{ 
-                       width: 190px;
+                       width: 70%;
                        height: 190px;
-                       margin-left: 24px;}
+                       margin-left: 15%;
+                    margin-right: 15%;}
                 .contacto{
                     padding-bottom: 12px;
                     font-size: 18px;
@@ -110,7 +111,7 @@
                     
             }
                     .imagenpromo{
-                        width: 300px;
+                        
                         height: 250px;
                         border-radius: 2rem;
                        padding: 5px;
@@ -387,8 +388,8 @@
         padding-top: 3.5rem;
 
         &logo{
-            width: 70px;
-            height: 80px;
+            width: 95px;
+            height: 95px;
             margin: 0;
              
           }
@@ -433,10 +434,12 @@
       
      .fotosuñas{ 
         border: 2px solid plum;
-        width: 100px;
+       width: 80%;
+       margin-left: 10%;
+       margin-right: 10%;
         height: 100px;
         border-radius:12px;
-        margin: 1rem;
+        margin-bottom: 1rem;
         text-align: center;
     
        }
@@ -582,7 +585,8 @@ margin-bottom: 5px;}
     
             }
             .imagenpromo{
-                width: 200px;
+                width: 90%;
+
                 height: 200px;
                 padding: 5px;
                 margin: 0;
