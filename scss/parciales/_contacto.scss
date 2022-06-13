@@ -19,14 +19,17 @@
 .fondocontacto{
     border: 2px solid pink;
     text-align: center;
-    width: 400px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     background: rgba(0, 0,0.4,0);
     padding: 10px 15px;
     box-sizing: border-box;
     margin-top: 15px;
     border-radius: 7px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     margin-bottom: 10px;
+    height: 500px;
 }
     .type{background-color: pink;
         color: gray;
@@ -43,9 +46,11 @@
     color:rgb(185, 144, 144);
     
 }
+
 .mapa{
     width: 500px;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 .botone{
     background-color: pink ;

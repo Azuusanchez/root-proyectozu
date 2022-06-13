@@ -125,17 +125,19 @@ background-color:pink;
 .insta{
   display:flex;
   flex-wrap: wrap;
-  width: 80%;
+  justify-content: center;
   height: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  
   
   }
   
   .instag{
-    width: 280px;
+    width: 270px;
     height: 420px;
     margin-bottom: 1rem;
     margin: 2rem;
   }
+  .insta__no{
+    display: flex;
+}
   

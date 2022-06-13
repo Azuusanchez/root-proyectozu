@@ -11,6 +11,7 @@
     }
     .whatsapp {  color: #D4E0EE;
         text-decoration: none;
+        border-radius: 2rem;
         background-color: darkgreen;
         padding: 1rem 1rem;
         display: inline-block;
@@ -24,6 +25,8 @@
         
         .menu__icono{
             display: none;
+            padding-left: 1rem;
+    
         }
         .iniciotitulo{
             display: none;

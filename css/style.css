@@ -13,6 +13,7 @@ body {
 .whatsapp {
   color: #D4E0EE;
   text-decoration: none;
+  border-radius: 2rem;
   background-color: darkgreen;
   padding: 1rem 1rem;
   display: inline-block;
@@ -28,6 +29,7 @@ body {
 
 .menu__icono {
   display: none;
+  padding-left: 1rem;
 }
 
 .iniciotitulo {
@@ -218,7 +220,7 @@ body {
 }
 
 .gradientes {
-  width: 280px;
+  width: 270px;
   height: 350px;
   border: 1px solid gray;
   margin-bottom: 2rem;
@@ -226,10 +228,9 @@ body {
 }
 
 .foto {
-  margin: 1rem;
   color: white;
-  width: 240px;
-  height: 250px;
+  width: 100%;
+  height: 280px;
 }
 
 .contenedor {
@@ -466,17 +467,19 @@ body {
 .insta {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  justify-content: center;
   height: auto;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .instag {
-  width: 280px;
+  width: 270px;
   height: 420px;
   margin-bottom: 1rem;
   margin: 2rem;
+}
+
+.insta__no {
+  display: flex;
 }
 
 .titulo2 {
@@ -572,14 +575,17 @@ body {
 .fondocontacto {
   border: 2px solid pink;
   text-align: center;
-  width: 400px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   background: rgba(0, 0, 0, 0);
   padding: 10px 15px;
   box-sizing: border-box;
   margin-top: 15px;
   border-radius: 7px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   margin-bottom: 10px;
+  height: 500px;
 }
 
 .type {
@@ -601,7 +607,8 @@ body {
 
 .mapa {
   width: 500px;
-  margin-top: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 .botone {
@@ -725,17 +732,17 @@ body {
     font-size: 18px;
   }
   .fondocontacto {
-    width: 350px;
     padding: 8px 12px;
     margin-top: 12px;
     padding-bottom: 15px;
+    height: 480px;
   }
   .type {
-    width: 80%;
+    width: 90%;
     font-size: 14px;
   }
   .mensaje {
-    font-size: 14px;
+    font-size: 16px;
   }
   .sectioncontacto {
     height: 350px;
@@ -747,11 +754,6 @@ body {
     width: 60%;
     height: auto;
     margin-top: 150px;
-  }
-  .mapa {
-    width: 350px;
-    height: 400px;
-    margin-left: 1rem;
   }
   .botone {
     width: 100px;
@@ -828,9 +830,12 @@ body {
     margin-right: 5%;
   }
   .instag {
-    width: 240px;
+    width: 220px;
     height: 400px;
     margin: 1rem;
+  }
+  .insta__no {
+    display: flex;
   }
 }
 
@@ -846,14 +851,15 @@ body {
 }
 
 .gradientes {
-  width: 300px;
+  width: 250px;
   height: 340px;
 }
 
 .foto {
-  width: 220px;
+  width: 95%;
   height: 240px;
-  margin: 1.5rem;
+  margin: 5px;
+  margin-bottom: 1.5rem;
 }
 
 .subtitulos {
@@ -924,6 +930,12 @@ body {
   .menu__icono:hover {
     color: white;
   }
+  .whatsapp {
+    padding: 10px;
+    bottom: 1.5rem;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
   .seccion {
     margin: 1rem 0px;
     padding: 0;
@@ -935,11 +947,10 @@ body {
   }
   .gradientes {
     margin-bottom: 1rem;
+    height: 330px;
   }
   .foto {
-    width: 210px;
-    height: 220px;
-    margin-left: 8px;
+    margin-bottom: 1.5rem;
   }
   .inicio-parrafo {
     margin-top: 1rem;
@@ -1035,7 +1046,7 @@ body {
     text-align: center;
   }
   .contacto {
-    font-size: 16px;
+    font-size: 17px;
     padding-bottom: 5px;
     margin-bottom: 5px;
   }
@@ -1044,23 +1055,21 @@ body {
     padding: 0;
   }
   .fondocontacto {
-    width: 250px;
+    height: 470px;
     background: rgba(0, 0, 0, 0);
     padding: 4px 8px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-left: 5px;
     border-radius: 5px;
     padding-bottom: 15px;
     margin-bottom: 6px;
   }
   .mensaje {
-    font-size: 14px;
+    font-size: 15px;
   }
   .type {
     background-color: pink;
     color: gray;
-    width: 80%;
+    width: 90%;
     margin-bottom: 12px;
     box-sizing: border-box;
     border-radius: 8px;
@@ -1073,6 +1082,13 @@ body {
     height: 300px;
     padding: 3rem;
     text-align: center;
+  }
+  .mapa {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 210px;
+    margin-bottom: 1rem;
   }
   .contacto__titulo {
     font-size: 30px;
@@ -1134,13 +1150,6 @@ body {
   }
   .botone:hover {
     width: 110px;
-  }
-  .mapa-contacto {
-    width: 90%;
-  }
-  .mapa {
-    width: 100%;
-    height: 210px;
   }
   .button__turno {
     width: 96%;
@@ -1270,12 +1279,13 @@ body {
     margin-top: 5rem;
   }
   .insta {
-    width: 86%;
-    margin-left: 7%;
-    margin-right: 7%;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .instag {
-    width: 86%;
+    width: 100%;
     height: 350px;
     margin: 0;
   }
