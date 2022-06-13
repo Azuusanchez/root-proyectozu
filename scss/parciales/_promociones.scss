@@ -6,15 +6,15 @@ color: $color-secundario ;
 font-size: $font-size-principal;
 text-align: center;
 padding: 1rem;
-width: 40%;
+width: 70%;
 height: auto;  
 margin-bottom: 2rem;   
 }
 .fondo { background-color: $background-color-palabras;
     padding-top: 6.2rem;
-    
      width: 100%; 
-     height: auto;   
+     height: auto; 
+     margin: 0;  
      &__promo{
         background-image: url( "../imagenes/alis\ \(2\).jpg") ;
         background-size: contain;

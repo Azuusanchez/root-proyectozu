@@ -35,7 +35,8 @@
 
         }
         .fondo {
-            margin: 3rem 0 0;
+            margin: 0;
+            padding-top: 8rem;
             &logo{
                 width: 85px;
                 height: 85px;
@@ -45,6 +46,7 @@
       
            .titulo2{
                font-size: 35px;
+               width: 100%;
            }
             
                    .turno{
@@ -328,38 +330,28 @@
             padding-left: 0;
         }
       .tipfoto{
-          width: 200px;
+          width: 90%;
           height: 200px ;
           margin-left: 1rem;
           margin-right: 1rem;
 
       }
       .contenedor{
-          width: 100%;
+          width: 60%;
+          margin-left: 20%;
+          margin-right: 20%;
           flex-direction: column;
           justify-content: space-between;
           height: auto;
           
       }
       .contenedor figure{
-          height: 250px;
-          margin-left: 3rem;
+          width: 100%;
+          height: 260px;
+
       
       }
-    .insta{
-        gap: 20px;
-        padding-left: 10px;
 
-       
-        
-    }
-
-    .insta__foto{
-        width: 220px;
-        height: 300px;
-        margin: 15px;
-        padding: 10px;
-    }
     
 
     .subtitulos{
@@ -386,7 +378,7 @@
         background: $color-palabras;
         width: 100%;
         margin:0;
-        padding-top: 5rem;
+        padding-top: 3.5rem;
 
         &logo{
             width: 70px;
@@ -545,11 +537,13 @@ margin-bottom: 5px;}
             .botone:hover{
                width: 110px;
             }
+            .mapa-contacto{
+                width: 90%;
+            }
             .mapa{
-                width: 250px;
-                height: 200px;
-                margin-left: 5px;
-                margin-bottom: 10px;
+                width: 100%;
+                height: 210px;
+            
             }
     
     
@@ -670,6 +664,7 @@ margin-bottom: 5px;}
         }
         
         .fondo__promo{
+           
             width: 100%;
             height: 300px;    
             padding: 1rem; 
@@ -705,7 +700,7 @@ margin-bottom: 5px;}
 
             }
             .instag{
-                width: 240px;
+                width: 86%;
                 height: 350px;
                 margin:0;
             }
