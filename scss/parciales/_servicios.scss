@@ -123,39 +123,19 @@ background-color:pink;
 
 }
 .insta{
-  display:grid;
+  display:flex;
+  flex-wrap: wrap;
+  width: 80%;
   height: auto;
-  margin-left: 6%;
-  grid-template-columns: 30% 30% 30% ;
-  grid-template-rows: 440px 440px   ;
-  gap: 20px;
-  grid-template-areas: 
-  "ele1 ele2 ele3"
-  "ele4 ele5 ele6";
+  margin-left: 10%;
+  margin-right: 10%;
   
   }
   
   .instag{
-    width: 300px;
-    height: 430px;
+    width: 280px;
+    height: 420px;
     margin-bottom: 1rem;
-  }
-  .insta_grid-1{
-    grid-area: ele1;
-  }
-  .insta_grid-2{
-    grid-area: ele2;
-  }
-  .insta_grid-3{
-    grid-area: ele3;
-  }
-  .insta_grid-4{
-    grid-area: ele4;
-  }
-  .insta_grid-5{
-    grid-area: ele5;
-  }
-  .insta_grid-6{
-    grid-area: ele6;
+    margin: 2rem;
   }
   

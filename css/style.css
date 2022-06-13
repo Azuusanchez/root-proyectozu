@@ -167,15 +167,16 @@ body {
   border: 1px solid gray;
   background-color: #f5abb0;
   text-decoration: none;
+  width: 280px;
 }
 
 .subtitulos {
   font-family: "fantasy";
   color: white;
-  width: 250px;
   padding: 5px;
   height: auto;
   margin: 5px;
+  text-align: center;
 }
 
 .subtitulos:hover {
@@ -206,34 +207,29 @@ body {
   margin-bottom: 1rem;
 }
 
-.gradientes {
-  width: 400px;
+.inicioflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
   height: auto;
+}
+
+.gradientes {
+  width: 280px;
+  height: 350px;
   border: 1px solid gray;
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
 
 .foto {
+  margin: 1rem;
   color: white;
-  width: 210px;
-  height: 210px;
-}
-
-.foto--transform {
-  transition: all 2s;
-  transition: width 3s height 3s;
-}
-
-.gradientes:hover .foto--transform {
-  width: 210px;
-  height: 210px;
-}
-
-.row {
-  margin-right: 0;
-  padding: 6px;
-  margin-left: 2rem;
+  width: 240px;
+  height: 250px;
 }
 
 .contenedor {
@@ -466,43 +462,19 @@ body {
 }
 
 .insta {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
   height: auto;
-  margin-left: 6%;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 440px 440px;
-  gap: 20px;
-  grid-template-areas: "ele1 ele2 ele3" "ele4 ele5 ele6";
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .instag {
-  width: 300px;
-  height: 430px;
+  width: 280px;
+  height: 420px;
   margin-bottom: 1rem;
-}
-
-.insta_grid-1 {
-  grid-area: ele1;
-}
-
-.insta_grid-2 {
-  grid-area: ele2;
-}
-
-.insta_grid-3 {
-  grid-area: ele3;
-}
-
-.insta_grid-4 {
-  grid-area: ele4;
-}
-
-.insta_grid-5 {
-  grid-area: ele5;
-}
-
-.insta_grid-6 {
-  grid-area: ele6;
+  margin: 2rem;
 }
 
 .titulo2 {
@@ -845,17 +817,16 @@ body {
   .sub__servi {
     font-size: 16px;
   }
-}
-
-.insta {
-  margin-left: 2%;
-}
-
-.instag {
-  margin-top: 1rem;
-  width: 250px;
-  height: 380px;
-  margin-bottom: 1rem;
+  .insta {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .instag {
+    width: 240px;
+    height: 400px;
+    margin: 1rem;
+  }
 }
 
 .parrafos {
@@ -863,31 +834,35 @@ body {
   padding: 8px;
 }
 
+.inicioflex {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
 .gradientes {
-  width: 170px;
+  width: 300px;
+  height: 340px;
 }
 
 .foto {
-  width: 140px;
-  height: 140px;
-  margin: 5px;
+  width: 220px;
+  height: 240px;
+  margin: 1.5rem;
 }
 
 .subtitulos {
-  font-size: 14px;
+  font-size: 18px;
   margin: 10px;
+  padding: 8px;
+  margin-left: 2rem;
 }
 
 .subtitulos {
   font-family: "fantasy";
   color: white;
-  width: 180px;
+  width: 300px;
   height: auto;
-}
-
-.gradientes:hover .foto--transform {
-  width: 150px;
-  height: 150px;
 }
 
 .fondo__promo {
@@ -948,17 +923,18 @@ body {
     margin: 1rem 0px;
     padding: 0;
   }
+  .inicioflex {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   .gradientes {
-    width: 215px;
+    margin-bottom: 1rem;
   }
   .foto {
-    width: 180px;
-    height: 180px;
+    width: 210px;
+    height: 220px;
     margin-left: 8px;
-  }
-  .gradientes:hover .foto--transform {
-    width: 190px;
-    height: 190px;
   }
   .inicio-parrafo {
     margin-top: 1rem;
@@ -966,14 +942,15 @@ body {
     padding-right: 10px;
     margin-left: 0;
     font-size: 14px;
+    margin: 1rem;
   }
   .row > {
     padding-left: 0;
   }
   .tipfoto {
-    width: 190px;
+    width: 200px;
     height: 200px;
-    margin-left: 0;
+    margin-left: 1rem;
     margin-right: 1rem;
   }
   .contenedor {
@@ -1012,6 +989,7 @@ body {
     background: white;
     width: 100%;
     margin: 0;
+    padding-top: 5rem;
   }
   .fondologo {
     width: 70px;
@@ -1242,7 +1220,8 @@ body {
   }
   .carrusel {
     width: 100%;
-    height: 250px;
+    height: auto;
+    padding-top: 4rem;
   }
   .carrusel__titulo {
     text-align: center;
@@ -1269,7 +1248,7 @@ body {
   .fondo__promo {
     width: 100%;
     height: 300px;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
   }
   .titulo2 {
@@ -1293,17 +1272,17 @@ body {
     margin-top: 5rem;
   }
   .insta {
-    margin-left: 5px;
-    display: row;
-    grid-template-columns: 45% 45%;
-    grid-template-rows: 180px 180px 180px;
-    grid-template-areas: "ele1 ele2 " "ele3 ele4" "ele5 ele6";
-    gap: 10px;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
   }
   .instag {
-    width: 130px;
-    height: 180px;
-    margin-bottom: 10px;
+    width: 240px;
+    height: 350px;
+    margin: 0;
+  }
+  .insta__no {
+    display: none;
   }
   .logofooter {
     width: 80px;

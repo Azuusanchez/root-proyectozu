@@ -72,6 +72,7 @@ font-size: 25px;
 border: 1px solid gray;
 background-color: $background-color-principal; 
 text-decoration: none;
+width: 280px;
 
 }
 @mixin subtitulos ( $font-family, $color) { 
@@ -81,10 +82,11 @@ text-decoration: none;
 
 .subtitulos {
   @include subtitulos ("fantasy", white);
-  width: 250px;
   padding: 5px;
   height: auto;
   margin: 5px;
+  text-align: center;
+  
 
 }
 .subtitulos:hover{
@@ -116,8 +118,19 @@ text-decoration: none;
    margin-bottom: 1rem;
  }
 
-.gradientes{ width: 400px;
-  height: auto;
+ .inicioflex{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 96%;
+   margin-left: 2%;
+   margin-right: 2%;
+   height: auto;
+
+ }
+.gradientes{ 
+  width: 280px;
+  height: 350px;
   border: 1px solid gray;
   margin-bottom: 2rem;
   margin-top: 1rem;
@@ -125,29 +138,14 @@ text-decoration: none;
 
 }
 
-.foto {  
-     color:$color-palabras;
-width: 210px;
-height: 210px;
+.foto { 
+  margin: 1rem; 
+  color:$color-palabras;
+width: 240px;
+height: 250px;
 }
 
 
-.foto--transform{
-    transition: all 2s;
-    transition: width 3s height 3s;
-    .gradientes:hover &{
-      width: 210px;
-      height: 210px;
-  
-  }
-    
-
-}
-.row{
-  margin-right: 0;
-  padding: 6px;
-  margin-left: 2rem;
-}
 
   
 
