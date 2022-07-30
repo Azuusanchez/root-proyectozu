@@ -50,26 +50,28 @@
                 <section class="fondocontacto">
 <h3 class="contacto">Dejanos tu mensaje o consulta</h3>
 
-<div>
+<form id="formulario">
+    <div >
 
-<label class="mensaje" for="Nombre">Nombre Completo:</label>
+<label  class="mensaje" for="Nombre">Nombre y Apellido:</label>
 
-<input class="type" type="text" id="Nombre" name="Nombre" placeholder="Ingresar nombre completo">
+<input class="type" type="text" id="nombreYApellido" name="Nombre" placeholder="Ingresar nombre y Apellido">
 </div>
 <div>
 <label class="mensaje" for="Correo Electronico">Correo Electronico:</label>
-<input class="type" type="Email" name="Correo Electronico" id="Correo Electronico" placeholder="Ingresar Email">
+<input class="type" type="Email" name="Correo Electronico" id="correoElectronico" placeholder="Ingresar Email">
 </div>
 <div>
 <label class="mensaje" for="Telefono">Telefono:</label>
-<input class="type" type="number" name="Telefono" id="Telefono" placeholder="Ingrese su Telefono">
+<input class="type" type="number" name="Telefono" id="telefono" placeholder="Ingrese su Telefono">
 </div>
 <div>
 
 <label class="mensaje" for="Comentario">Comentario:</label>
-<textarea class="type" placeholder="Ingresar su Comentario" name="Comentario" id="Comentario" cols="30" rows="10" style="height: 126px;"></textarea>
+<textarea class="type" placeholder="Ingresar su Comentario" name="Comentario" id="comentario" cols="30" rows="10" style="height: 126px;"></textarea>
 </div>
-<button class="botone">Enviar</button>
+<input class="botone" type="submit " value="Enviar" id="submit"> </input>
+</form>
 </div>
 </section>
 
@@ -130,6 +132,6 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-
+<script src="/index.js"></script>
 </body>
 </html>
