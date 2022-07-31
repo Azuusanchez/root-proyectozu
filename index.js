@@ -20,10 +20,24 @@ class Usuario {
     }
 
 } 
-formulario.onsubmit = (event) => {
-    event.preventDefault();
-    mensajeDeUsuario.push(new Usuario (inputNombreApellido.value, inputCorreo.value, inputTelefono.value, inputComentario.value))
 
+formulario.onsubmit = (event) => {
+    event.preventDefault () ;
+    mensajeDeUsuario.push(new Usuario (inputNombreApellido.value, inputCorreo.value, inputTelefono.value, inputComentario.value))
     console.log (mensajeDeUsuario) 
 
 }
+inputTelefono.oninput = () => {
+    if (inputTelefono.value.length <= 10){
+        console.log ( "Ingrese un numero de telefono correcto")
+        inputTelefono.style.border = "4px solid red"
+        
+    }
+    
+    else {
+        console.log ("Numero correcto")
+        inputTelefono.style.border = "4px solid green"
+    
+    }
+}
+
