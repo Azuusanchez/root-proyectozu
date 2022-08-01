@@ -717,6 +717,22 @@ body {
   height: 3.5rem;
 }
 
+.volver {
+  display: inline-block;
+  text-align: center;
+  background-color: palevioletred;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  height: 3.5rem;
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 1023px) {
   .menu {
     flex-direction: column;

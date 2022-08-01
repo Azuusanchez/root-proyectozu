@@ -4,6 +4,7 @@ const inputDni = document.querySelector("#input-dni");
 const inputEmail = document.querySelector("#input-email");
 const inputTelefono = document.querySelector("#input-telefono");
 const inputDate = document.querySelector("#input-date");
+const inputConfirmar = document.querySelector ("#submit");
 
 
 const registroDeClientes = []
