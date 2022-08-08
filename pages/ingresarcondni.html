@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingreso con dni - turnosdisponibles </title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-
     
+    <aside>
+
+        <form id="form-ingresar">
+            <label class="labeldni" for="dni">DNI</label>
+            <input type="number" id="dni" name="DNI" />
+            <label>
+                <input class="siguiente" type="submit" value="siguiente" />
+            </label>
+        </form>
+
+    </aside>
+
+   <main>
+
+    <div>
+      <h2> 
+          QUE TE GUSTARIA RESERVAR
+      </h2>
+
+      <!-- aca hiria los servicios disponibles con los precios -->
+        <button class="nuevoturno">
+            Nuevo turno
+        </button>
+
+
+    </div>
+   </main>
+
+    <script src="../ingreso.js"></script>
 </body>
 </html>

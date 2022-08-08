@@ -23,7 +23,7 @@ class Clientes {
 formulario.onsubmit = (event) => {
     event.preventDefault () ;
     registroDeClientes.push(new Clientes (inputNombreApellido.value, inputDni.value, inputEmail.value, inputTelefono.value, inputDate.value))
-
+    formulario.reset();
     console.log (registroDeClientes) 
 
 }

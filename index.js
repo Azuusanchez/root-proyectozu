@@ -24,6 +24,13 @@ class Usuario {
 formulario.onsubmit = (event) => {
     event.preventDefault () ;
     mensajeDeUsuario.push(new Usuario (inputNombreApellido.value, inputCorreo.value, inputTelefono.value, inputComentario.value))
+    formulario.reset();
+    const convertirAlLocalStore = JSON.stringify(mensajeDeUsuario);
+    localStorage.setItem("mensajeDeUsuario", convertirAlLocalStore);
+
+    localStorage.getItem (mensajeDeUsuario);
+    JSON.parse(convertirAlLocalStore);
+
     console.log (mensajeDeUsuario) 
 
 }
@@ -40,4 +47,5 @@ inputTelefono.oninput = () => {
     
     }
 }
+
 

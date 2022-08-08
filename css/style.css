@@ -733,6 +733,42 @@ body {
   color: black;
 }
 
+main {
+  display: none;
+}
+
+#form-ingresar {
+  background-color: lightpink;
+  height: 300px;
+}
+
+#dni {
+  margin: 1rem;
+  width: 90%;
+  height: 30px;
+  border: white;
+  padding-left: 2rem;
+}
+
+.labeldni {
+  display: inline-block;
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 1rem;
+  font-size: 30px;
+}
+
+.siguiente {
+  background-color: palevioletred;
+  width: 60%;
+  margin-left: 20%;
+  border: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  height: 3.5rem;
+}
+
 @media screen and (max-width: 1023px) {
   .menu {
     flex-direction: column;
