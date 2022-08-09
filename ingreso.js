@@ -1,7 +1,7 @@
 
 const inputDni = document.getElementById ("dni");
 const formIngresar = document.getElementById ("form-ingresar");
-const main = document.querySelector("main");
+const main = document.getElementById ("main");
 const asideLogin = document.querySelector("aside");
 
 
